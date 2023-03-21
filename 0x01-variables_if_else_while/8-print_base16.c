@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /**
- * mian - prints hexadecimals in lower case
+ * main - prints hexadecimals in lower case
  *
  * Return: 0
  */
