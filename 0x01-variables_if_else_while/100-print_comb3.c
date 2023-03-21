@@ -21,10 +21,12 @@ int main(void)
 		{
 			putchar(digit1);
 			putchar(digit2);
+
 			if (digit1 == 56 && digit2 == 57)
 			{
 				break;
 			}
+
 			putchar(44);
 			putchar(32);
 		}
