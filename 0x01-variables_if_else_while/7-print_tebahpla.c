@@ -13,7 +13,9 @@
 
 int main(void)
 {
-	for (char letters = 'z'; letters >= 'a'; letters--)
+	char letters;
+
+	for (letters = 'z'; letters >= 'a'; letters--)
 	{
 		putchar(letters);
 	}
