@@ -25,3 +25,4 @@ int print_last_digit(int j)
 	last_digit = (j % 10);
 	_putchar(last_digit + '0');
 	return (last_digit);
+}
