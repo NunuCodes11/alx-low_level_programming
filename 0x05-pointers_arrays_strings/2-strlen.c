@@ -1,0 +1,23 @@
+/*
+ * File: 2-strlen.c
+ * Auth: Lawal Hamzat A.
+ */
+
+#include "main.h"
+
+/**
+ * _strlen - returns the length of a string
+ * @s: pointer to char to be accessed
+ * Return: 0
+ */
+
+int _strlen(char *s)
+{
+	int length = 0;
+
+	while (s[length] != '\0')
+	{
+		length++;
+	}
+	return (length);
+}
