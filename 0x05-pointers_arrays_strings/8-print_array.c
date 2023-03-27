@@ -1,4 +1,4 @@
-/**
+/*
  * File: 8-print_array.c
  * Auth: Lawal Hamzat A.
  */
@@ -19,14 +19,13 @@ void print_array(int *a, int n)
 
 	for (i = 0; i < n; i++)
 	{
-		if (i == 4)
+		printf("%d", a[i]);
+
+		if (i == n - 1)
 		{
-			printf("%d", a[i]);
+			break;
 		}
-		else
-		{
-			printf("%d, ", a[i]);
-		}
+		printf(", ");
 	}
 	printf("\n");
 }
