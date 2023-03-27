@@ -9,7 +9,7 @@
  * print_array - prints the element of array
  * @a: the pointer to the array
  * @n: length of the array
- * 
+ *
  * Return: nothing
  */
 
@@ -17,15 +17,22 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	for (i = 0; i < n; i++)
+	if (n < 0)
 	{
-		printf("%d", a[i]);
-
-		if (i == n - 1)
+		printf("%d", a[0]);
+	}
+	else
+	{
+		for (i = 0; i < n; i++)
 		{
-			break;
+			printf("%d", a[i]);
+
+			if (i == n - 1)
+			{
+				continue;
+			}
+			printf(", ");
 		}
-		printf(", ");
 	}
 	printf("\n");
 }
