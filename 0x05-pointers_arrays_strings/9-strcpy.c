@@ -11,11 +11,14 @@
  * to the buffer pointed to by dest.
  * @dest: pointer to the buffer in which we copy the string
  * @src: the string to be copied
+ *
+ * Return: pointer dest
  */
 
 char *_strcpy(char *dest, char *src)
 {
 	int len = 0, i;
+
 	while (src[len] != '\0')
 	{
 		len++;
@@ -24,5 +27,6 @@ char *_strcpy(char *dest, char *src)
 	{
 		dest[i] = src[i];
 	}
+	dest[i] = '\0';
 	return (dest);
 }
