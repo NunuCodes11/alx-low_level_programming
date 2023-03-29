@@ -7,6 +7,7 @@
  * _strcat - concatenates strings
  * @dest: pointer of a string to be concatenated
  * @src: pointer to char
+ * Return: point dest
  */
 
 char *_strcat(char *dest, char *src)
