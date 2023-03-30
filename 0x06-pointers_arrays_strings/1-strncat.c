@@ -1,4 +1,4 @@
-/**
+/*
  * File: 1-strncat.c
  * Auth: LAwal HAmzat A.
  */
