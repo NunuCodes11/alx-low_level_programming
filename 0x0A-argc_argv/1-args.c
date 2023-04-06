@@ -1,5 +1,5 @@
 /*
- * File: 0-whatsmyname.c
+ * File: 1-args.c
  * Auth:LAwal Hamzat A.
  */
 
@@ -10,8 +10,8 @@
  * @argv: An array containing the program command line arguments
  * Return: 0 if sucessful
  */
-int main(int __attribute__((__unused__)) argc, char *argv[])
+int main(int argc, char __attribute__((__unused__)) *argv[])
 {
-	printf("%s\n", argv[0]);
+	printf("%d\n", argc);
 	return (0);
 }
