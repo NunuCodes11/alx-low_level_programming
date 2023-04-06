@@ -13,7 +13,7 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	/*loop through the number of CLA and print agrv value after each iteration*/
+/*loop through the number of CLA and print agrv value after each iteration*/
 	for (i = 0; i < argc; i++)
 	{
 		printf("%s\n", argv[i]);
