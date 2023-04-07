@@ -1,6 +1,6 @@
 /*
  * File: 1-args.c
- * Auth:LAwal Hamzat A.
+ * Auth: Lawal Hamzat A.
  */
 
 #include <stdio.h>
