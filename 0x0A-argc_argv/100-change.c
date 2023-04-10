@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
 	if (cent < 0)
 	{
 		printf("0\n");
+		return (-1);
 	}
 	while (cent > 0)
 	{
