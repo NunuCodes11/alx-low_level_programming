@@ -26,23 +26,23 @@ int main(int argc, char *argv[])
 
 	while (coin > 0)
 	{
-		if (coin / 25 >= 0)
+		if (coin >= 25)
 		{
 			coin -= 25;
 		}
-		else if (coin / 10 >= 0)
+		else if (coin >= 10)
 		{
 			coin -= 10;
 		}
-		else if (coin / 5 >= 0)
+		else if (coin >= 5)
 		{
 			coin -= 5;
 		}
-		else if (coin / 2 >= 0)
+		else if (coin >= 2)
 		{
 			coin -= 2;
 		}
-		else if (coin / 1 >= 0)
+		else if (coin >= 1)
 		{
 			coin -= 1;
 		}
