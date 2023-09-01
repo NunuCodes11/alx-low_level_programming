@@ -7,7 +7,7 @@
 
 /**
  * _puts_recursion - prints string with a newline
- * 
+ *
  * @s: string to be printed
  * Return: nothing
  */
