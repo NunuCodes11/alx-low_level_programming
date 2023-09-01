@@ -1,19 +1,19 @@
 /*
- * Auth: Lawal Hamzat A.
  * File: 1-args.c
+ * Auth: Lawal Hamzat A.
  */
-
-#include <stdio.h>
 
 /**
  * main - entry point
  *
+ * @argc: number of command line args
  * @argv: array of strings
- * @argc: count of arguments
- * Return: 0 if sucessfuli
+ * Return: 0 if sucessful
  */
-int main(int argc, char *argv[]__attribute__((unused)))
+
+int main(int argc, char *argv[])
 {
-	printf("%d\n", argc - 1);
+	(void)argv;
+	printf("%d\n", argc);
 	return (0);
 }

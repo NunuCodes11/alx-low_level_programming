@@ -1,17 +1,16 @@
 /*
- * Auth: Lawal Hamzat A.
  * File: 3-mul.c
+ * Auth: Lawal Hamzat A.
  */
 
-#include <stdio.h>
-#include <stdlib.h>
 /**
  * main - entry point
  *
+ * @argc: number of command line args
  * @argv: array of strings
- * @argc: count of arguments
- * Return: 0 if sucessfuli
+ * Return: 0 if sucessful
  */
+
 int main(int argc, char *argv[])
 {
 	if (argc != 3)
@@ -19,6 +18,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+	printf("%d\n", atoi(argv[1]) + atoi(argv[2]));
 	return (0);
 }

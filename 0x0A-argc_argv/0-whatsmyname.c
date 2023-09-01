@@ -1,17 +1,16 @@
 /*
- * Auth: Lawal Hamzat A.
  * File: 0-whatsmyname.c
+ * Auth: Lawal Hamzat A.
  */
-
-#include <stdio.h>
 
 /**
  * main - entry point
  *
+ * @argc: number of command line args
  * @argv: array of strings
- * @argc: count of arguments
- * Return: 0 if sucessfuli
+ * Return: 0 if successful
  */
+
 int main(int argc, char *argv[])
 {
 	(void)argc;
