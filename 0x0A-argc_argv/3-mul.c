@@ -2,7 +2,7 @@
  * File: 3-mul.c
  * Auth: Lawal Hamzat A.
  */
-
+#include <stdio.h>
 /**
  * main - entry point
  *

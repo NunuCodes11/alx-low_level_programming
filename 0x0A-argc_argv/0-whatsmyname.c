@@ -2,7 +2,7 @@
  * File: 0-whatsmyname.c
  * Auth: Lawal Hamzat A.
  */
-
+#include <stdio.h>
 /**
  * main - entry point
  *

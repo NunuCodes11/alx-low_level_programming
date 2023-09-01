@@ -2,7 +2,7 @@
  * File: 2-args.c
  * Auth: Lawal Hamzat A.
  */
-
+#include <stdio.h>
 /**
  * main - entry point
  *
