@@ -1,3 +1,8 @@
+/*
+ * File: 2-int_index.c
+ * Auth: Lawal Hamzat A.
+ */
+
 #include "function_pointers.h"
 
 /**

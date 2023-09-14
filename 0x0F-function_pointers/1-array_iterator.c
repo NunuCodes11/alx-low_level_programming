@@ -1,3 +1,7 @@
+/*
+ * File: 1-array_iterator
+ * Auth: Lawal Hamzat A.
+ */
 #include <stddef.h>
 #include "function_pointers.h"
 /**

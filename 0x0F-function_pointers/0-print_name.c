@@ -1,3 +1,7 @@
+/*
+ * File: 0-print_name.c
+ * Auth: Lawal Hamzat A.
+ */
 #include "function_pointers.h"
 /**
 * print_name - prints a name using func pointer
