@@ -24,9 +24,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 
 		num = va_arg(numbers, int);
-		if (separator == NULL)
-			break;
-		else
+		if (separator != NULL)
 		{
 			if (i == 0)
 			{
