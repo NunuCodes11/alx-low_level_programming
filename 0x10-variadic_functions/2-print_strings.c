@@ -8,7 +8,7 @@
 
 /**
   * print_strings - prints strings followed by a new line
-  * @ separator: string to be printed between the strings
+  * @separator: string to be printed between the strings
   * @n: number of strings
   */
 
@@ -23,10 +23,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		s = va_arg(string, char *);
 		if (s == NULL)
-			printf("(nil)");
-		else
-			printf("%s", s);
-		if (i != (n - 1) && separator != NULL)
+			s = "(nil)";
+		printf("%s", s);
+		if (i < (n - 1) && separator != NULL)
 			printf("%s", separator);
 	}
 	printf("\n");
