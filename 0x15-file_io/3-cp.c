@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: Can't write to %s", file_to);
 		exit(99);
 	}
-	buffer_int = 2048;
+	buffer_int = 1024;
 	buffer = malloc(sizeof(char) * buffer_int);
 	fromread = read(fd, buffer, buffer_int);
 	if (fromread == -1)
