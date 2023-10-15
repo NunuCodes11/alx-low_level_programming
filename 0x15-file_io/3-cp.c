@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	if (fd2 == -1)
 	{
 		close(fd);
-		dprintf(STDERR_FILENO, "Error: Can't write to %s", file_to);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
 		exit(99);
 	}
 	buffer_int = 1024;
@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
 		free(buffer);
 		close(fd);
 		close(fd2);
-		dprintf(STDERR_FILENO, "Error: Can't write to %s", file_to);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
 		exit(99);
 	}
 	close(fd);
