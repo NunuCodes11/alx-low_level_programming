@@ -9,7 +9,7 @@ int main(int argc, char *argv[]);
 
 int main(int argc, char *argv[])
 {
-	int fd, fd2, i, buffer_int;
+	int fd, fd2, buffer_int;
 	ssize_t fromread, toread;
 	char *file_from, *file_to, *buffer;
 
@@ -44,9 +44,8 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 		exit(98);
 	}
-	for (i = 0; buffer[i]; i++)
-		;
-	toread = write(fd2, buffer, i);
+
+	toread = write(fd2, buffer, fromread);
 	if (toread == -1)
 	{
 		free(buffer);
