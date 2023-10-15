@@ -29,7 +29,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	for (i = 0; buffer[i]; i++)
 		;
 	lenwrite = write(STDOUT_FILENO, buffer, i);
-	if (lenwrite == -1 || lenwrite != lenread )
+	if (lenwrite == -1 && lenwrite != lenread )
 	{
 		free(buffer);
 		close(fd);
